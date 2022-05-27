@@ -9,7 +9,9 @@
 - 통신이 일어나는 과정을 단계별로 파악
 - 통신 장애 발생시 다른 단계의 장비나 소프트웨어를 보지 않고 해당 단계에서 해결 가능
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/93b696b5-efd5-44ce-8d93-d70ef5f9b406/Untitled.png)
+# 계층 구조
+
+![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/93b696b5-efd5-44ce-8d93-d70ef5f9b406/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220527%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220527T125241Z&X-Amz-Expires=86400&X-Amz-Signature=dfd2389f2c7d9ddad17cfd3c6036f46a35d6323077a504bde2de434d5a7cb329&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
 ## 1. 물리 계층 (Physical Layer)
 
@@ -71,7 +73,7 @@
 
 ## 작동 원리
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d7805c8b-0b8a-44dc-aef1-0ea7939be3ab/Untitled.png)
+![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d7805c8b-0b8a-44dc-aef1-0ea7939be3ab/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220527%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220527T125314Z&X-Amz-Expires=86400&X-Amz-Signature=7ff7e7ae5e511b7c3b0e685e63674d5d325bb6ce4c8773a8175eea1c83b72cb7&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
 1. 캡슐화 : 전송시 7계층에서 1계층으로 각각의 층마다 인식할 수 있어야 하는 헤더를 붙임
 2. 디캡슐화 : 수신시 1계층에서 7계층으로 헤더를 떼어냄
